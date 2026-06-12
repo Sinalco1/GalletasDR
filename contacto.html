@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Galletas DR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nunito:wght@800;900;1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cookie-bg"></div>
+  <header class="topbar"><nav class="nav"><a href="index.html" class="logo-link"><img src="assets/logo.png" alt="Logo Galletas DR"><div class="brand-name">Galletas DR<span>Galletería yucateca</span></div></a><button class="menu-toggle">☰</button><div class="nav-links"><a href="nosotros.html">Nosotros</a><a href="menu.html">Menú</a><a class="active" href="contacto.html">Contacto</a></div></nav></header>
+
+  <main>
+    <section class="page-hero"><div class="container"><div><span class="badge">Contacto</span><h1>Encuentra tu sucursal más <span>cercana</span></h1><p>Estamos en Mérida, Yucatán, con varias sucursales listas para recibirte todos los días.</p></div><img class="page-hero-logo" src="assets/logo.png" alt="Galletas DR"></div></section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <aside class="info-panel">
+          <h2>Horario e Instagram</h2>
+          <p>Ven por tus cookies de lunes a domingo. Todos los días, en todas nuestras sucursales.</p>
+          <div class="info-list">
+            <div class="info-row"><strong>🕒 Horario</strong>10:30 am - 9:00 pm</div>
+            <div class="info-row"><strong>📍 Ciudad</strong>Mérida, Yucatán</div>
+            <div class="info-row"><strong>📸 Instagram</strong>@galletassdr</div>
+          </div>
+          <br>
+          <a class="btn btn-dark" href="https://www.instagram.com/galletassdr" target="_blank">Ir a Instagram</a>
+        </aside>
+
+        <div>
+          <div class="contact-grid">
+            <div class="contact-card"><h3>Suc. Uptown</h3><p>999 648 7951</p><div class="contact-actions"><a class="small-btn" href="tel:9996487951">Llamar</a><a class="small-btn secondary" href="https://wa.me/529996487951" target="_blank">WhatsApp</a></div></div>
+            <div class="contact-card"><h3>Suc. Francisco M</h3><p>999 103 1703</p><div class="contact-actions"><a class="small-btn" href="tel:9991031703">Llamar</a><a class="small-btn secondary" href="https://wa.me/529991031703" target="_blank">WhatsApp</a></div></div>
+            <div class="contact-card"><h3>Suc. La Isla</h3><p>999 412 6665</p><div class="contact-actions"><a class="small-btn" href="tel:9994126665">Llamar</a><a class="small-btn secondary" href="https://wa.me/529994126665" target="_blank">WhatsApp</a></div></div>
+            <div class="contact-card"><h3>Suc. Temozón</h3><p>999 172 5274</p><div class="contact-actions"><a class="small-btn" href="tel:9991725274">Llamar</a><a class="small-btn secondary" href="https://wa.me/529991725274" target="_blank">WhatsApp</a></div></div>
+            <div class="contact-card"><h3>Suc. México O</h3><p>999 263 7993</p><div class="contact-actions"><a class="small-btn" href="tel:9992637993">Llamar</a><a class="small-btn secondary" href="https://wa.me/529992637993" target="_blank">WhatsApp</a></div></div>
+            <div class="contact-card"><h3>Suc. Montecristo</h3><p>999 992 9687</p><div class="contact-actions"><a class="small-btn" href="tel:9999929687">Llamar</a><a class="small-btn secondary" href="https://wa.me/529999929687" target="_blank">WhatsApp</a></div></div>
+            <div class="contact-card"><h3>Suc. Plancha</h3><p>999 412 6648</p><div class="contact-actions"><a class="small-btn" href="tel:9994126648">Llamar</a><a class="small-btn secondary" href="https://wa.me/529994126648" target="_blank">WhatsApp</a></div></div>
+
+            <div class="form-card">
+              <h3>Enviar mensaje</h3>
+              <form id="orderForm">
+                <div class="form-grid">
+                  <div class="form-group"><label for="name">Nombre</label><input id="name" type="text" placeholder="Tu nombre" required></div>
+                  <div class="form-group"><label for="branch">Sucursal de interés</label><select id="branch" required><option>Uptown</option><option>Francisco M</option><option>La Isla</option><option>Temozón</option><option>México O</option><option>Montecristo</option><option>Plancha</option></select></div>
+                  <div class="form-group full"><label for="product">Producto o pedido que desea</label><input id="product" type="text" placeholder="Ej. caja de 6 galletas, cookie bites, galletón..." required></div>
+                  <div class="form-group full"><label for="message">Mensaje adicional</label><textarea id="message" placeholder="Escribe detalles de tu pedido, cantidad, sabores o dudas"></textarea></div>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar mensaje por WhatsApp</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><p>© 2026 <strong>Galletas DR</strong>. Mérida, Yucatán.</p></footer><script src="script.js"></script>
+</body>
+</html>
